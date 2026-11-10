@@ -2,6 +2,24 @@
 
 A small console employee manager demonstrating classes, arrays, search, department-based salary lookup, and example bonus calculations.
 
+## Example walkthrough
+
+The two employees, short numeric IDs, departments, and salaries are fictional. The example lists employees, finds the highest salary in a department, and applies the coursework bonus rule.
+
+![Synthetic example output](docs/demo-output.svg)
+
+Run from the repository root. For Java, create `build` if it does not already exist:
+
+```sh
+mkdir build
+javac --release 8 -encoding UTF-8 -d build src/*.java examples/*.java
+java -cp build EmployeeDemo
+```
+
+[Runnable example](examples/) · [Plain-text output](examples/output.txt)
+
+The example and output visual were added for this portfolio in November 2026 using newly authored synthetic inputs. They are separate from the original coursework.
+
 ## Course and original date
 
 - **Course / المادة:** CSC 111 - Computer Programming I / برمجة الحاسبات 1, King Saud University.
